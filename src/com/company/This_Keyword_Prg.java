@@ -11,9 +11,9 @@ public class This_Keyword_Prg {
 
 class Demo5{
     public static void main(String args[]){
-        Scanner s=new Scanner(System.in);
-        int a=s.nextInt();
-        int b=s.nextInt();
+        Scanner S=new Scanner(System.in);
+        int a=S.nextInt();
+        int b=S.nextInt();
         This_Keyword_Prg obj=new This_Keyword_Prg();
         obj.Intialize(a,b);
         System.out.println(obj.a+" "+obj.b);
